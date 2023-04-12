@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-image: url(wp9028856.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.nologo {
+  width: 1000px;
+  height: 600px;
+  margin: 25px;
+}
+
+.boton {
+  height: 50px;
+  width: 75px;
+  margin: 25px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  border: 5px solid orangered;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+section {
+  color: white;
+  font-size: 25px;
+  border: 2px dotted orangered;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+#adventure {
+  margin: 25px;
+}
+
+#adventure p {
+  padding: 25px;
+}
